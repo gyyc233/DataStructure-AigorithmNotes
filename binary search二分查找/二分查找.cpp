@@ -1,6 +1,8 @@
 ﻿// 二分查找.cpp : 此文件包含 "main" 函数。程序执行将在此处开始并结束。
 //
 
+//题目描述：在一个有序无重复元素的数组nums中，寻找一个元素target,找到就返回下标，否则返回-1
+
 #include <iostream>
 #include <vector>
 
