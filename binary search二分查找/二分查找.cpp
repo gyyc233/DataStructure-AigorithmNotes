@@ -28,7 +28,7 @@ public:
         //当left==right时，[left,right]仍然有效，使用<=
         while (left<=right)
         {
-			int middle = left + (right - left) / 2;//等同于(right + left) / 2，说是可以防止溢出
+			int middle = left + (right - left) >>1;//等同于(right + left) / 2，说是可以防止溢出
 
             // target 在middle左边
 			if (target < nums[middle])
